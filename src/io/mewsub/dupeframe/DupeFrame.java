@@ -6,7 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import org.bukkit.Server;
 
-import io.mewsub.dupeframe.Listeners.PlayerInteractEntity;
+import io.mewsub.dupeframe.listeners.PlayerInteractEntity;
 
 public class DupeFrame extends JavaPlugin {
 
