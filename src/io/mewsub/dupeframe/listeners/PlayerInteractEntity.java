@@ -1,4 +1,4 @@
-package io.mewsub.dupeframe.Listeners;
+package io.mewsub.dupeframe.listeners;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.ItemFrame;
