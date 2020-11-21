@@ -29,7 +29,7 @@ public class PlayerInteractEntity implements Listener {
                 if( pItem.getType() == item.getType() && pItem.getType() != Material.AIR ) {
                     ItemMeta pMeta = pItem.getItemMeta();
                     ItemMeta meta = item.getItemMeta();
-                    if( pMeta.getDisplayName() == meta.getDisplayName() ) {
+                    if( pMeta.getDisplayName().equals( meta.getDisplayName() ) ) {
                         ItemStack duped = new ItemStack( pItem );
                         e.getWorld().dropItemNaturally( e.getLocation(), duped );
                     }
